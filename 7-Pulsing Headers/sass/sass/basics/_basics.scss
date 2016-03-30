@@ -1,0 +1,9 @@
+// start with basic elements
+@import "elements/_h1.scss";
+@import "elements/_p.scss";
+
+// add classes
+@import "classes/_image.scss";
+
+// and finally do ids
+@import "ids/_chapter0.scss";

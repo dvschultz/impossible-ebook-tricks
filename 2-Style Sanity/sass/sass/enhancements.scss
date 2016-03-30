@@ -1,0 +1,9 @@
+//
+// Styles that are meant as progressive enhancements go here
+// This is used as a way to bypass bugs cause by old versions of RMSDK
+//
+
+//import all variables
+@import "_variables.scss";
+
+@import "enhancements/_enhancements.scss";

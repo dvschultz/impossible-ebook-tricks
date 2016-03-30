@@ -1,0 +1,7 @@
+/* line 2, ../../sass/sass/enhancements/ids/_chapter0.scss */
+#chapter0 h1 {
+  display: inline-block;
+  background: #007fff;
+  padding: .5rem;
+  border-radius: .25em;
+}
