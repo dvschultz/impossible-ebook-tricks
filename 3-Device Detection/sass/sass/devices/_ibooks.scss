@@ -1,6 +1,7 @@
 // basic ibooks hack
+// WARNING: Use this with some trepidation
 @mixin ibooks() {
-  html[__ibooks_writing_mode] {
+  :root[__ibooks_writing_mode] & {
 	@content;
   }
 }
@@ -39,5 +40,50 @@
 	    @content;
 	}
 }
+
+
+// iPhones
+
+// iPhone 5 Scroll Mode, Portrait
+@mixin iphone5-portrait-scroll() {
+	@media screen and (width: 260px) and (min-device-width: 320px) {
+	    @content;
+	}
+}
+
+// iPhone 5 Paged Mode, Portrait
+@mixin iphone5-portrait-paged() {
+	@media screen and (width: 270px) and (min-device-width: 320px) {
+	    @content;
+	}
+}
+
+// @media screen 
+//   and (width: 420px) 
+//   and (min-device-width: 320px)
+//   and (max-device-width: 480px) {
+//     /* Styles for iPhone4S (and earlier) Scroll View (Landscape) */
+// }
+
+// @media screen 
+//   and (width: 454px) 
+//   and (min-device-width: 320px)
+//   and (max-device-width: 480px) {
+//     /* Styles for iPhone4S (and earlier) Paged View (Landscape) */
+// }
+
+// @media screen 
+//   and (width: 508px) 
+//   and (min-device-width: 320px)
+//   and (max-device-width: 568px) {
+//     /* Styles for iPhone5 (and later) Scroll View (Landscape) */
+// }
+
+// @media screen 
+//   and (width: 542px) 
+//   and (min-device-width: 320px)
+//   and (max-device-width: 568px) {
+//     /* Styles for iPhone5 (and later) Paged View (Landscape) */
+// }
 
 
