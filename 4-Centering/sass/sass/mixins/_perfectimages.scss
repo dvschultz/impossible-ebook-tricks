@@ -1,0 +1,21 @@
+// From Joshua Tallent
+// see slide 73 of 
+// http://www.slideshare.net/booknetcanada/images-in-ebooks-joshua-tallent-ebookc
+
+@mixin perfectimage() {
+	text-align: center;
+	margin: 0;
+	page-break-inside: avoid;
+
+	div.img_pct {
+		height: 80%;
+	}
+
+	img.img_vh {
+		height: 80%;
+
+		&:only-of-type {
+			height: 80vh;
+		}
+	}
+}

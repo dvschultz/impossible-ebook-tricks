@@ -6,5 +6,8 @@
 //import all variables
 @import "_variables.scss";
 
+//import all mixins
+@import "mixins/_mixins.scss";
+
 // see basics/_basics.scss for the full tree
 @import "basics/_basics.scss";

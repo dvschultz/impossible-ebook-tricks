@@ -5,5 +5,7 @@
 
 //import all variables
 @import "_variables.scss";
+//import all device media queries
+@import "devices/_devices.scss";
 
 @import "enhancements/_enhancements.scss";

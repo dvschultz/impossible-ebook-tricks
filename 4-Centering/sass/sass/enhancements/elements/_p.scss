@@ -1,0 +1,9 @@
+p {
+	@include ibooks() {
+		-webkit-font-smoothing: antialiased;
+	}
+
+	@include ipad() {
+		font-size: 1.5rem;
+	}
+}

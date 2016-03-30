@@ -1,0 +1,30 @@
+// http://epubsecrets.com/media-queries-for-kindle-devices.php
+@mixin kf8() {
+	@media amzn-kf8 {
+		@content;
+	}
+}
+
+@mixin mobi7() {
+	@media amzn-mobi7 {
+		@content;
+	}
+}
+
+@mixin paperwhite() {
+	@media amzn-kf8 and (device-height: 1024px) and (device-width: 758px), amzn-kf8 and (device-height: 758px) and (device-width: 1024px){
+		@content;
+	}
+}
+
+@mixin non-paperwhite() {
+	@media amzn-kf8 and (device-height: 800px) and (device-width: 600px), amzn-kf8 and (device-height: 600px) and (device-width: 800px){
+		@content;
+	}
+}
+
+@mixin kindle-fire() {
+	@media amzn-kf8 and (device-aspect-ratio:1280/800) {
+		@content;
+	}
+}
