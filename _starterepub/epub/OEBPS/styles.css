@@ -1,0 +1,24 @@
+/* line 1, ../../sass/sass/basics/elements/_h1.scss */
+h1 {
+  font-size: 2rem;
+}
+
+/* line 1, ../../sass/sass/basics/elements/_p.scss */
+p {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+/* line 1, ../../sass/sass/basics/classes/_image.scss */
+.image {
+  display: block;
+}
+/* line 4, ../../sass/sass/basics/classes/_image.scss */
+.image .caption {
+  font-style: italic;
+}
+
+/* line 2, ../../sass/sass/basics/ids/_chapter0.scss */
+#chapter0 h1 {
+  font-size: 3rem;
+}
