@@ -1,0 +1,5 @@
+h1 {
+	@include kf8() {
+		font-weight: 400;
+	}
+}
