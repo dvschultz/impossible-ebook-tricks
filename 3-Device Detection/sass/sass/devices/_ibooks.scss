@@ -1,5 +1,43 @@
-@mixin ibooks {
+// basic ibooks hack
+@mixin ibooks() {
   html[__ibooks_writing_mode] {
-	@content
+	@content;
   }
 }
+
+//basic iPad
+@mixin ipad() {
+	@media screen and (width: 548px) and (device-width: 768px), screen and (width: 567px) and (min-device-width: 768px) and (max-device-width: 1024px), screen and (width: 804px) and (min-device-width: 768px) and (max-device-width: 1024px), screen and (width: 902px) and (min-device-width: 768px) and (max-device-width: 1024px) {
+	    @content;
+	}
+}
+
+//basic iPad Scroll Mode, Portrait
+@mixin ipad-portrait-scroll() {
+	@media screen and (width: 548px) and (device-width: 768px) {
+	    @content;
+	} 
+}
+
+//basic iPad Paginated Mode, Portrait
+@mixin ipad-portrait-paged() {
+	@media screen and (width: 567px) and (min-device-width: 768px) and (max-device-width: 1024px) {
+	    @content;
+	}
+}
+
+//basic iPad Scroll Mode, Landscape
+@mixin ipad-landscape-scroll() {
+	@media screen and (width: 804px) and (min-device-width: 768px) and (max-device-width: 1024px) {
+	    @content;
+	}
+}
+
+//basic iPad Paginated Mode, Landscape
+@mixin ipad-landscape-paged() {
+	@media screen and (width: 902px) and (min-device-width: 768px) and (max-device-width: 1024px) {
+	    @content;
+	}
+}
+
+

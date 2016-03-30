@@ -1,0 +1,5 @@
+p {
+	@include ipad() {
+		font-size: 3rem;
+	}
+}
