@@ -1,3 +1,21 @@
+@media amzn-kf8 {
+  /* line 1, ../../sass/sass/enhancements/elements/_h1.scss */
+  h1 {
+    font-weight: 400;
+  }
+}
+
+/* line 4, ../../sass/sass/devices/_ibooks.scss */
+:root[__ibooks_writing_mode] p {
+  -webkit-font-smoothing: antialiased;
+}
+@media screen and (width: 548px) and (device-width: 768px), screen and (width: 567px) and (min-device-width: 768px) and (max-device-width: 1024px), screen and (width: 804px) and (min-device-width: 768px) and (max-device-width: 1024px), screen and (width: 902px) and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* line 1, ../../sass/sass/enhancements/elements/_p.scss */
+  p {
+    font-size: 1.5rem;
+  }
+}
+
 /* line 2, ../../sass/sass/enhancements/ids/_chapter0.scss */
 #chapter0 h1 {
   display: inline-block;

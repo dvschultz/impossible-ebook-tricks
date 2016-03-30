@@ -20,6 +20,8 @@
   <item id="colophon" href="colophon.xhtml" media-type="application/xhtml+xml"/>
   <item id="generatedCSS" href="css/generated.css" media-type="text/css"/>
   <item id="id_builtwithcreatavistpng" href="images/built_with_creatavist.png" media-type="image/png"/>
+  <item id="id_map" href="images/map.jpg" media-type="image/jpeg"/>
+  <item id="id_map" href="images/portrait.png" media-type="image/png"/>
   <item id="ncx" href="book.ncx" media-type="application/x-dtbncx+xml"/>
   <item id="navtoc" properties="nav" href="nav.xhtml" media-type="application/xhtml+xml"/>
  </manifest>

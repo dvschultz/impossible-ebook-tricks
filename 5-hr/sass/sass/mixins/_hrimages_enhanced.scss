@@ -1,0 +1,16 @@
+@mixin hrimages_enhanced($bgcolor: transparent, $h: 1rem, $imgsrc: "",$h2: false) {
+	height: $h; // specify height here
+	width: 100%;
+	margin: 2rem 0;
+	border: 0;
+	background: $bgcolor;
+	background-image: url($imgsrc);
+	background-repeat: no-repeat;
+	background-position: center center;
+
+	@if $h2 {
+		height: $h2;
+    	background-size: contain;
+	}
+
+}

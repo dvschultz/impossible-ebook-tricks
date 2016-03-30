@@ -1,0 +1,10 @@
+@mixin hrimages($bgcolor: transparent, $h: 1rem, $imgsrc: "") {
+	height: $h; // specify height here
+	width: 100%;
+	margin: 2rem 0;
+	border: 0;
+	background: $bgcolor;
+	background-image: url($imgsrc);
+	background-repeat: no-repeat;
+	background-position: center center;
+}

@@ -11,11 +11,40 @@ p {
 
 /* line 1, ../../sass/sass/basics/classes/_image.scss */
 .image {
-  display: block;
+  text-align: center;
+  margin: 0;
+  page-break-inside: avoid;
 }
-/* line 4, ../../sass/sass/basics/classes/_image.scss */
-.image .caption {
-  font-style: italic;
+/* line 10, ../../sass/sass/mixins/_perfectimages.scss */
+.image div.img_pct {
+  height: 80%;
+}
+/* line 14, ../../sass/sass/mixins/_perfectimages.scss */
+.image img.img_vh {
+  height: 80%;
+}
+/* line 17, ../../sass/sass/mixins/_perfectimages.scss */
+.image img.img_vh:only-of-type {
+  height: 80vh;
+}
+
+/* line 1, ../../sass/sass/basics/classes/_map.scss */
+.map {
+  text-align: center;
+  margin: 0;
+  page-break-inside: avoid;
+}
+/* line 10, ../../sass/sass/mixins/_perfectimages.scss */
+.map div.img_pct {
+  height: 80%;
+}
+/* line 14, ../../sass/sass/mixins/_perfectimages.scss */
+.map img.img_vh {
+  height: 80%;
+}
+/* line 17, ../../sass/sass/mixins/_perfectimages.scss */
+.map img.img_vh:only-of-type {
+  height: 80vh;
 }
 
 /* line 2, ../../sass/sass/basics/ids/_chapter0.scss */

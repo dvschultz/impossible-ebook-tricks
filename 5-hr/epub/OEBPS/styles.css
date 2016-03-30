@@ -3,6 +3,17 @@ h1 {
   font-size: 2rem;
 }
 
+/* line 1, ../../sass/sass/basics/elements/_hr.scss */
+hr {
+  display: block;
+  width: 80%;
+  margin: 4rem 10%;
+  border-top: 1px solid #000;
+  border-right: 0;
+  border-bottom: 1px solid #fff;
+  border-left: 0;
+}
+
 /* line 1, ../../sass/sass/basics/elements/_p.scss */
 p {
   font-size: 1rem;
@@ -11,11 +22,64 @@ p {
 
 /* line 1, ../../sass/sass/basics/classes/_image.scss */
 .image {
-  display: block;
+  text-align: center;
+  margin: 0;
+  page-break-inside: avoid;
 }
-/* line 4, ../../sass/sass/basics/classes/_image.scss */
-.image .caption {
-  font-style: italic;
+/* line 10, ../../sass/sass/mixins/_perfectimages.scss */
+.image div.img_pct {
+  height: 80%;
+}
+/* line 14, ../../sass/sass/mixins/_perfectimages.scss */
+.image img.img_vh {
+  height: 80%;
+}
+/* line 17, ../../sass/sass/mixins/_perfectimages.scss */
+.image img.img_vh:only-of-type {
+  height: 80vh;
+}
+
+/* line 1, ../../sass/sass/basics/classes/_map.scss */
+.map {
+  text-align: center;
+  margin: 0;
+  page-break-inside: avoid;
+}
+/* line 10, ../../sass/sass/mixins/_perfectimages.scss */
+.map div.img_pct {
+  height: 80%;
+}
+/* line 14, ../../sass/sass/mixins/_perfectimages.scss */
+.map img.img_vh {
+  height: 80%;
+}
+/* line 17, ../../sass/sass/mixins/_perfectimages.scss */
+.map img.img_vh:only-of-type {
+  height: 80vh;
+}
+
+/* line 1, ../../sass/sass/basics/classes/_section-break-type-a.scss */
+.section-break-type-a {
+  height: 113px;
+  width: 100%;
+  margin: 2rem 0;
+  border: 0;
+  background: transparent;
+  background-image: url("images/icon1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* line 1, ../../sass/sass/basics/classes/_section-break-type-b.scss */
+.section-break-type-b {
+  height: 150px;
+  width: 100%;
+  margin: 2rem 0;
+  border: 0;
+  background: #007fff;
+  background-image: url("images/icon2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 /* line 2, ../../sass/sass/basics/ids/_chapter0.scss */
