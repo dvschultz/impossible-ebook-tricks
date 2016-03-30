@@ -1,0 +1,11 @@
+@mixin kf8() {
+	@media amzn-kf8 {
+		@content
+	}
+}
+
+@mixin mobi7() {
+	@media amzn-mobi7 {
+		@content
+	}
+}
